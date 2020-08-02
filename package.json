@@ -1,15 +1,20 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Blog",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node-sass sass/main.scss css/blog.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jasawebapp/blog.git"
   },
+  "keywords": [
+    "Blog",
+    "News",
+    "Magazine"
+  ],
   "author": "JasaWebApp",
   "license": "ISC",
   "bugs": {
@@ -17,6 +22,6 @@
   },
   "homepage": "https://github.com/jasawebapp/blog#readme",
   "dependencies": {
-    "sass": "^1.26.10"
+    "node-sass": "^4.14.1"
   }
 }

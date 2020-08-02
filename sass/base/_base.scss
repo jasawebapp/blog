@@ -29,7 +29,8 @@ html {
   overflow-y: visible;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  background: #fff;
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.87);
 
   &.page-when-header-mobile-nav-open {
     & body {
@@ -58,21 +59,20 @@ body {
   word-wrap: break-word;
   overflow-y: visible;
   overflow-x: visible;
-  color: var(--text-color);
 
   &::-webkit-scrollbar-track {
-    background-color: var(--bg-color);
-    border-radius: 10px;
+    background-color: #f1f4f6;
+    border-radius: 7px;
   }
 
   &::-webkit-scrollbar {
-    width: 15px;
-    background-color: var(--bg-color);
+    width: 7px;
+    background-color: #f1f4f6;
   }
 
   &::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: var(--primary-5);
+    border-radius: 7px;
+    background-color: $primary5;
   }
 }
 

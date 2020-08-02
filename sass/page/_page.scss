@@ -1,0 +1,13 @@
+.nav {
+  background-color: $primary;
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+}
+
+.site-content {
+  margin-top: 70px;
+}
